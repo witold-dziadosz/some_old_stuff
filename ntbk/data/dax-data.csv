@@ -1,0 +1,547 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "88135887",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "import pandas as pd # pobranie pliku csv\n",
+    "from scipy.stats import chi2_contingency # uzasadnienie przewagi statystycznej\n",
+    "from sklearn.model_selection import train_test_split # podział zbioru na train i test\n",
+    "from sklearn.tree import DecisionTreeClassifier # najprostszy model drzewiasty\n",
+    "from sklearn.metrics import accuracy_score # najprostsza metryka dla klasyfikacji\n",
+    "from sklearn.preprocessing import LabelEncoder"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "9d001de1",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Unnamed: 0</th>\n",
+       "      <th>date</th>\n",
+       "      <th>open</th>\n",
+       "      <th>high</th>\n",
+       "      <th>low</th>\n",
+       "      <th>close</th>\n",
+       "      <th>iblow</th>\n",
+       "      <th>ibhigh</th>\n",
+       "      <th>ibclose</th>\n",
+       "      <th>range</th>\n",
+       "      <th>ibrange</th>\n",
+       "      <th>daydir</th>\n",
+       "      <th>ibdir</th>\n",
+       "      <th>ibdaytype</th>\n",
+       "      <th>weekday</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>0</td>\n",
+       "      <td>2021-03-04</td>\n",
+       "      <td>14015.44</td>\n",
+       "      <td>14095.81</td>\n",
+       "      <td>13959.27</td>\n",
+       "      <td>14056.34</td>\n",
+       "      <td>13976.44</td>\n",
+       "      <td>14056.32</td>\n",
+       "      <td>14006.65</td>\n",
+       "      <td>136.54</td>\n",
+       "      <td>79.88</td>\n",
+       "      <td>up</td>\n",
+       "      <td>down</td>\n",
+       "      <td>both-broken</td>\n",
+       "      <td>3</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>1</td>\n",
+       "      <td>2021-03-05</td>\n",
+       "      <td>13958.54</td>\n",
+       "      <td>14068.03</td>\n",
+       "      <td>13868.20</td>\n",
+       "      <td>13920.69</td>\n",
+       "      <td>13868.20</td>\n",
+       "      <td>13970.17</td>\n",
+       "      <td>13901.60</td>\n",
+       "      <td>199.83</td>\n",
+       "      <td>101.97</td>\n",
+       "      <td>down</td>\n",
+       "      <td>down</td>\n",
+       "      <td>high-broken</td>\n",
+       "      <td>4</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>2</td>\n",
+       "      <td>2021-03-08</td>\n",
+       "      <td>14024.57</td>\n",
+       "      <td>14402.92</td>\n",
+       "      <td>13977.13</td>\n",
+       "      <td>14380.91</td>\n",
+       "      <td>13977.13</td>\n",
+       "      <td>14050.00</td>\n",
+       "      <td>14013.16</td>\n",
+       "      <td>425.79</td>\n",
+       "      <td>72.87</td>\n",
+       "      <td>up</td>\n",
+       "      <td>down</td>\n",
+       "      <td>high-broken</td>\n",
+       "      <td>0</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>3</td>\n",
+       "      <td>2021-03-09</td>\n",
+       "      <td>14345.51</td>\n",
+       "      <td>14475.65</td>\n",
+       "      <td>14309.35</td>\n",
+       "      <td>14437.94</td>\n",
+       "      <td>14309.35</td>\n",
+       "      <td>14403.48</td>\n",
+       "      <td>14392.05</td>\n",
+       "      <td>166.30</td>\n",
+       "      <td>94.13</td>\n",
+       "      <td>up</td>\n",
+       "      <td>up</td>\n",
+       "      <td>high-broken</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>4</td>\n",
+       "      <td>2021-03-10</td>\n",
+       "      <td>14439.45</td>\n",
+       "      <td>14560.97</td>\n",
+       "      <td>14408.52</td>\n",
+       "      <td>14540.25</td>\n",
+       "      <td>14408.52</td>\n",
+       "      <td>14488.46</td>\n",
+       "      <td>14477.09</td>\n",
+       "      <td>152.45</td>\n",
+       "      <td>79.94</td>\n",
+       "      <td>up</td>\n",
+       "      <td>up</td>\n",
+       "      <td>high-broken</td>\n",
+       "      <td>2</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   Unnamed: 0        date      open      high       low     close     iblow  \\\n",
+       "0           0  2021-03-04  14015.44  14095.81  13959.27  14056.34  13976.44   \n",
+       "1           1  2021-03-05  13958.54  14068.03  13868.20  13920.69  13868.20   \n",
+       "2           2  2021-03-08  14024.57  14402.92  13977.13  14380.91  13977.13   \n",
+       "3           3  2021-03-09  14345.51  14475.65  14309.35  14437.94  14309.35   \n",
+       "4           4  2021-03-10  14439.45  14560.97  14408.52  14540.25  14408.52   \n",
+       "\n",
+       "     ibhigh   ibclose   range  ibrange daydir ibdir    ibdaytype  weekday  \n",
+       "0  14056.32  14006.65  136.54    79.88     up  down  both-broken        3  \n",
+       "1  13970.17  13901.60  199.83   101.97   down  down  high-broken        4  \n",
+       "2  14050.00  14013.16  425.79    72.87     up  down  high-broken        0  \n",
+       "3  14403.48  14392.05  166.30    94.13     up    up  high-broken        1  \n",
+       "4  14488.46  14477.09  152.45    79.94     up    up  high-broken        2  "
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# wczytanie wcześniej przygotowanych danych\n",
+    "data = pd.read_csv(\"./data/dax-data.csv\")\n",
+    "data.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "bd12f2d4",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "df = data[[\"ibdir\", \"daydir\"]]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "ae531a64",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th>daydir</th>\n",
+       "      <th>down</th>\n",
+       "      <th>up</th>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>ibdir</th>\n",
+       "      <th></th>\n",
+       "      <th></th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>down</th>\n",
+       "      <td>92</td>\n",
+       "      <td>55</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>up</th>\n",
+       "      <td>33</td>\n",
+       "      <td>96</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "daydir  down  up\n",
+       "ibdir           \n",
+       "down      92  55\n",
+       "up        33  96"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "ctab = pd.crosstab(df.ibdir, df.daydir)\n",
+    "ctab"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "8cbaf1c8",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(36.48931374132898,\n",
+       " 1.5350553337373955e-09,\n",
+       " 1,\n",
+       " array([[66.57608696, 80.42391304],\n",
+       "        [58.42391304, 70.57608696]]))"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "chi2_contingency(ctab)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "f622e4a5",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>ibdir</th>\n",
+       "      <th>daydir</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>down</td>\n",
+       "      <td>up</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>down</td>\n",
+       "      <td>down</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>down</td>\n",
+       "      <td>up</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>up</td>\n",
+       "      <td>up</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>up</td>\n",
+       "      <td>up</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>...</th>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>271</th>\n",
+       "      <td>up</td>\n",
+       "      <td>up</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>272</th>\n",
+       "      <td>up</td>\n",
+       "      <td>up</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>273</th>\n",
+       "      <td>down</td>\n",
+       "      <td>down</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>274</th>\n",
+       "      <td>down</td>\n",
+       "      <td>down</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>275</th>\n",
+       "      <td>down</td>\n",
+       "      <td>down</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>276 rows × 2 columns</p>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    ibdir daydir\n",
+       "0    down     up\n",
+       "1    down   down\n",
+       "2    down     up\n",
+       "3      up     up\n",
+       "4      up     up\n",
+       "..    ...    ...\n",
+       "271    up     up\n",
+       "272    up     up\n",
+       "273  down   down\n",
+       "274  down   down\n",
+       "275  down   down\n",
+       "\n",
+       "[276 rows x 2 columns]"
+      ]
+     },
+     "execution_count": 78,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "id": "dc3592fc",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "X = pd.get_dummies(df.ibdir)\n",
+    "y = df.daydir\n",
+    "encoder = LabelEncoder()\n",
+    "y = encoder.fit_transform(y)\n",
+    "split_factor = 0.5\n",
+    "X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=split_factor)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "id": "501e45c1",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "DecisionTreeClassifier()"
+      ]
+     },
+     "execution_count": 131,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "my_beautiful_classifier = DecisionTreeClassifier()\n",
+    "my_beautiful_classifier.fit(X_train, y_train)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 132,
+   "id": "f7bfdcc0",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.6811594202898551"
+      ]
+     },
+     "execution_count": 132,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "accuracy_score(my_beautiful_classifier.predict(X_train), y_train)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 133,
+   "id": "8575ca18",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.6811594202898551"
+      ]
+     },
+     "execution_count": 133,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "accuracy_score(my_beautiful_classifier.predict(X_test), y_test)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 136,
+   "id": "dfd531af",
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.9"
+      ]
+     },
+     "execution_count": 136,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "accuracy_score(my_beautiful_classifier.predict(X_test[-10:]), y_test[-10:])"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3.8.10 64-bit",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": "python",
+   "version": "3.8.10"
+  },
+  "name": "IbdirTreeClassifier.ipynb",
+  "vscode": {
+   "interpreter": {
+    "hash": "916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1"
+   }
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
