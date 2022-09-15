@@ -7,7 +7,7 @@ if __name__ == "__main__":
     companies = []
     low_wages = []
     high_wages =[]
-    with open("./oferty.txt", "r") as f:
+    with open("./oferty.txt", "r", encoding="utf-8") as f:
         cnt = 5
         for line in f.readlines():
             try:
@@ -56,4 +56,4 @@ if __name__ == "__main__":
         df["mid_wage"] = 0.5 * (df.low_wage + df.high_wage)
 
         print(df.head())
-        df.to_csv("oferty-junior.csv")
+        df.to_csv("oferty-junior.csv", index=False)

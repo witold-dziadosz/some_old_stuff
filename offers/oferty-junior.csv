@@ -1,0 +1,562 @@
+position,company,low_wage,high_wage,mid_wage
+Network Security Engineer,Box,10000.0,13000.0,11500.0
+Cloud Spec,Knowit Poland,6000.0,8000.0,7000.0
+QA Engineer,Advisor,7000.0,10000.0,8500.0
+Junior Ruby Dev,Ragnarson,4000.0,8000.0,6000.0
+PHP Dev,Satisfly,10000.0,18000.0,14000.0
+DevOps Jr,Prime Engin.,8400.0,13700.0,11050.0
+AWS Devops Eng,Sofomo,7000.0,9000.0,8000.0
+Junior PHP Dev ,Droptica,5000.0,8500.0,6750.0
+Bubble.io Dev,LTVplus,4280.0,8560.0,6420.0
+Junior .Net Dev,Coffee Mug,6000.0,8000.0,7000.0
+Junior Java Dev,Summer Agency,6000.0,10000.0,8000.0
+Junior Blockchain Dev,BlockLabs,6000.0,10000.0,8000.0
+Bubble.io Dev,LTVplus,4280.0,8560.0,6420.0
+Angular Dev,House of Angular,4000.0,8000.0,6000.0
+Integration Eng,proALPHA,5500.0,11000.0,8250.0
+Junior PHP Dev,CKSource,6000.0,10700.0,8350.0
+QA Engr with JS,CKSource,6000.0,10700.0,8350.0
+Jr. HelpDesk,TEAM Inter.,6000.0,9200.0,7600.0
+Intern React Native Dev,Miquido,4000.0,4000.0,4000.0
+Junior Java Dev,Codibly,6800.0,11700.0,9250.0
+Cloud Engineer,Datumo,8000.0,14000.0,11000.0
+Jr QA Eng,WundermanThompson,6000.0,8000.0,7000.0
+Junior Tester,YND,4500.0,6500.0,5500.0
+Junior PHP Dev ,Droptica,5000.0,8500.0,6750.0
+Intern iOS Dev,Miquido,4000.0,4000.0,4000.0
+Intern iOS Dev,Miquido,4000.0,4000.0,4000.0
+Software Engineer,Tivix Europe,14000.0,16000.0,15000.0
+Jr. Data Eng,TEAM Inter.,9000.0,12000.0,10500.0
+JrMobile SoftEng,Cosmose,8500.0,13000.0,10750.0
+Software Java Eng.,Awin,8500.0,12500.0,10500.0
+Junior Bioinformatician,Ardigen,5000.0,7000.0,6000.0
+Junior PHP Dev,PGS Software,6700.0,10100.0,8400.0
+Junior Java Dev,Summer Agency,6000.0,10000.0,8000.0
+QA Engineer,Advisor,7000.0,10000.0,8500.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+JrSoft.Eng,SmartRecruiters,8000.0,12000.0,10000.0
+Junior Java Dev,MPC,6000.0,8000.0,7000.0
+Junior .NET Dev,Exeno,3000.0,6000.0,4500.0
+Android Dev,Connectis,18500.0,25500.0,22000.0
+QuickBase Dev,7N,10100.0,11800.0,10950.0
+Technical Consul,proALPHA Group,5000.0,10000.0,7500.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Junior JS Dev,Smart-HR,8000.0,13000.0,10500.0
+Progr. Ap. Internet,Sente,7000.0,8200.0,7600.0
+Jr FullstJava Dev,Connectis,16000.0,19000.0,17500.0
+Product Specialist,Kitopi,5400.0,7300.0,6350.0
+Jr Data Eng,TEAM International,9000.0,12000.0,10500.0
+Jr. DevOps ,Prime,8400.0,13700.0,11050.0
+.NET Dev,IN Team,6700.0,11800.0,9250.0
+Junior Java Dev,Acaisoft,5500.0,11000.0,8250.0
+Technical Serv,proALPHA Group,5000.0,10000.0,7500.0
+Support Engineer,proALPHA Group,5000.0,10000.0,7500.0
+Magento 2 Jr Dev,IBB.PL,4000.0,6000.0,5000.0
+QA Engineer,XTB,4000.0,7000.0,5500.0
+Jr Data Eng,TEAM International,9000.0,12000.0,10500.0
+Junior SQL Dev,Andea,5000.0,8800.0,6900.0
+Jr Backend Dev,Guestline,6960.0,13920.0,10440.0
+Technical Servic,proALPHA Group,5000.0,10000.0,7500.0
+Jr HelpDesk,TEAM International,6000.0,9200.0,7600.0
+Support Engineer,proALPHA Group,5000.0,10000.0,7500.0
+Intern Software Tester,Miquido,4000.0,4000.0,4000.0
+Junior PHP Dev,PGS Software,6700.0,10100.0,8400.0
+Junior Java Dev,Unity Group,6700.0,11800.0,9250.0
+Junior Java Dev,Guestline,6960.0,13920.0,10440.0
+Junior .NET Dev,Quad IT,6000.0,9500.0,7750.0
+Intern Product Designer,Miquido,4000.0,4000.0,4000.0
+Junior Java Dev,Codibly,6800.0,11700.0,9250.0
+Junior Tester,YND,4500.0,6500.0,5500.0
+Junior PHP Dev ,Droptica,5000.0,8500.0,6750.0
+Shopify Spec,Unity Group,4000.0,7000.0,5500.0
+Cloud Engineer,Datumo,8000.0,14000.0,11000.0
+Support Engineer,proALPHA Group,5000.0,10000.0,7500.0
+Jr Wordpress Dev,Neutec,6960.0,8352.0,7656.0
+Shopify Spec,Unity Group,4000.0,7000.0,5500.0
+Junior Scala Engineer,VirtusLab,9000.0,15000.0,12000.0
+Software Dev,TekMonks,8560.0,17120.0,12840.0
+Jr iOS Dev ,Grupa Blix,6000.0,9000.0,7500.0
+Junior .NET Dev,Quad IT,6000.0,9500.0,7750.0
+Software Dev,TekMonks,8560.0,17120.0,12840.0
+Intern React Native Dev,Miquido,4000.0,4000.0,4000.0
+QA Engineer,Advisor,7000.0,10000.0,8500.0
+Junior PHP Dev,ImpiCode,4000.0,5000.0,4500.0
+Integration Eng,proALPHA,5500.0,11000.0,8250.0
+Jr Soft. Eng,Semaphore,2996.0,5992.0,4494.0
+Jr Soft. Eng,Semaphore,2996.0,5992.0,4494.0
+SYSTEMS INTEGRATION ENGR,ARCHE,10000.0,16000.0,13000.0
+Junior Java Dev,Unity Group,6700.0,11800.0,9250.0
+IT Architect,Next Tech.,18000.0,22000.0,20000.0
+Cloud Infra. Sec. Eng,Box,10000.0,13000.0,11500.0
+WANNABE Data Eng,Datumo,8000.0,14000.0,11000.0
+WANNABE Data Eng,Datumo,8000.0,14000.0,11000.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Junior Software Engineer,Knowit,4000.0,7000.0,5500.0
+Intern Flutter Dev,Miquido,4000.0,4000.0,4000.0
+Data Engineer ,Datumo,8000.0,14000.0,11000.0
+Intern Software Tester,Miquido,4000.0,4000.0,4000.0
+Jr React Native Dev,Printbox,5000.0,9500.0,7250.0
+Jr Soft. Tester,Quad IT,4800.0,7000.0,5900.0
+.NET Dev,IN Team,6700.0,11800.0,9250.0
+Junior Java Dev,Unity Group,6700.0,11800.0,9250.0
+Jr Soft.Tester,Quad IT,4800.0,7000.0,5900.0
+Junior Java Dev,Cloud Services,6000.0,12000.0,9000.0
+Jr. DevOps,Prime,8400.0,13700.0,11050.0
+Jr Full-stack,Synergity,4000.0,8000.0,6000.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Jr Full-stack,Synergity,4000.0,8000.0,6000.0
+iOS Dev,Affirm,13000.0,16000.0,14500.0
+Bubble.io Dev,LTVplus,4280.0,8560.0,6420.0
+Software Dev,TekMonks,8560.0,17120.0,12840.0
+Intern Android Dev,Miquido,4000.0,4000.0,4000.0
+Junior Java Dev,Summer Agency,6000.0,10000.0,8000.0
+Junior .NET Dev,Quad IT,6000.0,9500.0,7750.0
+Backend Dev,MENTAX,4300.0,7000.0,5650.0
+JrNode.jsDev,The Software House,6000.0,8000.0,7000.0
+Junior Java Dev,braf.tech,10000.0,12000.0,11000.0
+iOS Dev,Affirm,13000.0,16000.0,14500.0
+Integr. Eng,proALPHA,5500.0,11000.0,8250.0
+Quality Tester,OrderGroup,6000.0,8000.0,7000.0
+Intern Android Dev,Miquido,4000.0,4000.0,4000.0
+.NET Dev,IN Team,6700.0,11800.0,9250.0
+Junior Java Dev,braf.tech,10000.0,12000.0,11000.0
+Junior Java Dev,braf.tech,10000.0,12000.0,11000.0
+Mł Progr. Java,Altkom,4200.0,6000.0,5100.0
+Jr Java Game Dev,Z Management,5000.0,7000.0,6000.0
+Jr Tech Project Manager,YND,5000.0,6500.0,5750.0
+Linux Engineer,ITFS,6700.0,10100.0,8400.0
+Junior System Admin,IT Develop,5000.0,8000.0,6500.0
+Jr Mobile Dev,Altkom,4200.0,6000.0,5100.0
+Junior Technical PM,YND,5000.0,6500.0,5750.0
+Linux System Admin,core3,8300.0,12500.0,10400.0
+Junior System Admin,IT Develop,5000.0,8000.0,6500.0
+Junior Java Dev,Cloud Services,6000.0,12000.0,9000.0
+Junior Blockchain Dev,BlockLabs,6000.0,10000.0,8000.0
+Junior QA Engineer,Deviniti,6000.0,7700.0,6850.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+J. PHP Dev,Innovation Software,4000.0,7000.0,5500.0
+Quality Tester,OrderGroup,6000.0,8000.0,7000.0
+Junior PHP Dev,CKSource,6000.0,10700.0,8350.0
+Junior PHP Dev,CKSource,6000.0,10700.0,8350.0
+Vue.js Dev (Junior ++),skygate,7000.0,9000.0,8000.0
+Mł Progr. .NET,Altkom,4200.0,6000.0,5100.0
+Frontend Dev,Omega,7000.0,12000.0,9500.0
+Frontend Dev,Omega,7000.0,12000.0,9500.0
+QA Engr with JS,CKSource,6000.0,10700.0,8350.0
+Jr PHP Dev,The Software House,6000.0,8000.0,7000.0
+Jr DevOps Eng,TSH,6000.0,8000.0,7000.0
+Junior .NET Dev,ASTRAFOX,4000.0,8000.0,6000.0
+Jr Software Tester,Quad IT,4800.0,7000.0,5900.0
+Junior DevOps Engineer,Smart-HR,7000.0,13000.0,10000.0
+Frontend Dev,Omega,7000.0,12000.0,9500.0
+Jr HelpDesk,TEAM International,6000.0,9200.0,7600.0
+Cloud Engineer,Datumo,8000.0,14000.0,11000.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Jr Software Engineer,SR,8000.0,12000.0,10000.0
+Jr Dev (Symfony),Codibly,7000.0,13000.0,10000.0
+Technical Engineer,Piwik,5000.0,8000.0,6500.0
+Android Dev,Affirm,13000.0,16000.0,14500.0
+Junior JS developer,Hintech,5000.0,9000.0,7000.0
+Soft. Java Eng,Awin,8500.0,12500.0,10500.0
+Junior Blockchain Dev,BlockLabs,6000.0,10000.0,8000.0
+Jr Soft. Eng,Semaphore,2996.0,5992.0,4494.0
+Soft. Java Eng,Awin,8500.0,12500.0,10500.0
+Intern Product Designer,Miquido,4000.0,4000.0,4000.0
+Android Dev,Affirm,13000.0,16000.0,14500.0
+Project Manager,FlyHigh.PRO,5000.0,7000.0,6000.0
+.NET Dev,IN Team,6700.0,11800.0,9250.0
+Junior PHP Dev,PGS Software,6700.0,10100.0,8400.0
+Junior Java Dev,Cloud Services,6000.0,12000.0,9000.0
+Mobile Dev,Altkom,4200.0,6000.0,5100.0
+Frontend Dev ,Randstad,12000.0,24000.0,18000.0
+Junior Full Stack Dev,Ardigen,7000.0,10000.0,8500.0
+Jr Test,YND,4500.0,6500.0,5500.0
+Mł Programista Java,Altko,4200.0,6000.0,5100.0
+Junior Java Dev,Codibly,6800.0,11700.0,9250.0
+Tech.DeliveryCon.,Pragmile,4200.0,8400.0,6300.0
+.NET Dev,IN Team,6700.0,11800.0,9250.0
+Junior PHP Dev,PGS Software,6700.0,10100.0,8400.0
+Junior Java Dev,Cloud Services,6000.0,12000.0,9000.0
+Mł Programista .NET,Altkom,4200.0,6000.0,5100.0
+Soft.QualityTester,Order,6000.0,8000.0,7000.0
+Junior Mobile Dev,Altkom,4200.0,6000.0,5100.0
+Junior IT recruiter,Blazity,3500.0,5000.0,4250.0
+Junior Technical PM,YND,5000.0,6500.0,5750.0
+Junior PHP Dev ,Droptica,5000.0,8500.0,6750.0
+React Dev,StoryDoc,16000.0,20000.0,18000.0
+WordPress Developer,Acclaim,5000.0,8000.0,6500.0
+iOS Dev,Affirm,13000.0,16000.0,14500.0
+Android Dev,Affirm,13000.0,16000.0,14500.0
+Intern Flutter Dev,Miquido,4000.0,4000.0,4000.0
+Junior Node Dev,MPC,6000.0,8000.0,7000.0
+Mł Programista Java,Altkom,4200.0,6000.0,5100.0
+Manual Tester,PROMO.COM,5000.0,8000.0,6500.0
+Jr Java Game Dev,Z Management,5000.0,7000.0,6000.0
+Java Game Dev,Z Management,5000.0,7000.0,6000.0
+Mł .NET,Altkom,4200.0,6000.0,5100.0
+Junior Dev,Primaris,4000.0,5800.0,4900.0
+Network Security Engineer,Box,10000.0,13000.0,11500.0
+Junior Ruby Dev,Ragnarson,4000.0,8000.0,6000.0
+Junior Python Dev,Softax,4000.0,7000.0,5500.0
+Bubble.io Dev,LTVplus,4280.0,8560.0,6420.0
+GamingTech.,PragmaticPlay,4176.0,4640.0,4408.0
+Angular Dev,House of Angular,4000.0,8000.0,6000.0
+QA Engr with JS,CKSource,6000.0,10700.0,8350.0
+IT Cons.,Randstad,8500.0,11000.0,9750.0
+Tester Oprogramowania,Netgraf,4000.0,6000.0,5000.0
+Jr Data Scientist,Kearney,7500.0,11000.0,9250.0
+Jr System Eng,spaceOS,7000.0,10000.0,8500.0
+Junior Java Dev,Codibly,6800.0,11700.0,9250.0
+Jr FullStack Dev (.NET),Kearney,8000.0,16000.0,12000.0
+Junior JS Dev,OUTWORKING,7000.0,10000.0,8500.0
+JrMobile SoftEng,Cosmose,8500.0,13000.0,10750.0
+Junior BI Dev,Kearney,7500.0,11000.0,9250.0
+Junior Python Dev,OUTWORKING,7000.0,10500.0,8750.0
+Help Desk IT Specialist,DCG,5000.0,6000.0,5500.0
+Junior Software Engineer,Sages,7000.0,12000.0,9500.0
+Junior Java Dev,Gazelle Global,10000.0,15000.0,12500.0
+Jr Test Autom Eng,Softax,4200.0,7000.0,5600.0
+Tech Support Speci,VOLT,9300.0,17500.0,13400.0
+IT Specialist,Dealavo,6000.0,9000.0,7500.0
+QuickBase Dev,7N,10100.0,11800.0,10950.0
+Junior .NET Dev,Exeno,3000.0,6000.0,4500.0
+Android Dev,Connectis,18500.0,25500.0,22000.0
+Jr FullstJava Dev,Connectis,16000.0,19000.0,17500.0
+Jr Data Eng,TEAM International,9000.0,12000.0,10500.0
+QA Engineer,XTB,4000.0,7000.0,5500.0
+Technical Servic,proALPHA Group,5000.0,10000.0,7500.0
+Software Eng,Adform,10000.0,20000.0,15000.0
+IT Help Desk,CIC Poland,6000.0,8000.0,7000.0
+Cyber Threat Analyst,Link,13000.0,15000.0,14000.0
+Junior Java Dev,Acaisoft,5500.0,11000.0,8250.0
+Młodszy administrator IT,OMEGA,9000.0,10000.0,9500.0
+Junior Consultant,ANEGIS,4000.0,6000.0,5000.0
+Junior .NET Dev,Netcompany,7000.0,8000.0,7500.0
+Junior Java Dev,Unity Group,6700.0,11800.0,9250.0
+Jr Cloud Infra. Eng.,Netcompany,7000.0,9000.0,8000.0
+Shopify Spec,Unity Group,4000.0,7000.0,5500.0
+Cloud Engineer,Datumo,8000.0,14000.0,11000.0
+Associate Product Manager,Tink,15000.0,23000.0,19000.0
+Junior PHP Dev,ImpiCode,4000.0,5000.0,4500.0
+Integration Eng,proALPHA,5500.0,11000.0,8250.0
+Jr Soft. Eng,Semaphore,2996.0,5992.0,4494.0
+Cloud Infra. Sec. Eng,Box,10000.0,13000.0,11500.0
+Data Engineer ,Datumo,8000.0,14000.0,11000.0
+Junior Software Engineer,Knowit,4000.0,7000.0,5500.0
+Product Impl. Cons,FIS,6500.0,6500.0,6500.0
+.NET Dev,IN Team,6700.0,11800.0,9250.0
+Junior Java Dev,Cloud Services,6000.0,12000.0,9000.0
+Spec ds. syst AIM,PANSA,7000.0,8500.0,7750.0
+Jr Full-stack,Synergity,4000.0,8000.0,6000.0
+Software Dev,TekMonks,8560.0,17120.0,12840.0
+Tester manualny,Execon,4500.0,9000.0,6750.0
+Full Stack,Hardware Direct,7000.0,12000.0,9500.0
+Junior Java Dev,Summer Agency,6000.0,10000.0,8000.0
+Junior IT Administrator,ANEGIS,6000.0,6000.0,6000.0
+Jr Tech Project Manager,YND,5000.0,6500.0,5750.0
+Junior Java Dev,braf.tech,10000.0,12000.0,11000.0
+Jr Tech Project Manager,YND,5000.0,6500.0,5750.0
+Junior Java Dev,braf.tech,10000.0,12000.0,11000.0
+Junior DevOps,Daftcode,8000.0,12000.0,10000.0
+InternalSuppSpec,Intiaro,3600.0,5000.0,4300.0
+Linux System Admin,core3,8300.0,12500.0,10400.0
+Jr Java Dev,Sollers,7700.0,11800.0,9750.0
+Junior Java Dev,Netcompany,7000.0,8000.0,7500.0
+Junior PHP Dev,eStoreMedia,4500.0,6000.0,5250.0
+Junior PHP Dev,CKSource,6000.0,10700.0,8350.0
+Quality Tester,OrderGroup,6000.0,8000.0,7000.0
+Junior IT Specialist,Dealavo,5000.0,9000.0,7000.0
+Junior python developer,F33.ai,5000.0,9000.0,7000.0
+Frontend Dev,Omega,7000.0,12000.0,9500.0
+Junior .NET Dev,ASTRAFOX,4000.0,8000.0,6000.0
+Soft. Java Eng,Awin,8500.0,12500.0,10500.0
+Junior Database Dev,Citi,7500.0,14400.0,10950.0
+Inżynier ,OUTWORKING,9000.0,18000.0,13500.0
+Jr Platform Eng,DevsData,17100.0,21400.0,19250.0
+Junior Java Dev,Citi,7500.0,14400.0,10950.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Jr HelpDesk,TEAM International,6000.0,9200.0,7600.0
+Junior JS developer,Hintech,5000.0,9000.0,7000.0
+Junior Blockchain Dev,BlockLabs,6000.0,10000.0,8000.0
+Jr System Eng.,METTLER TOLEDO,9000.0,14000.0,11500.0
+IT Project Manager,BETFAN,7000.0,10000.0,8500.0
+Junior Python Dev,CloudFerro,4500.0,9000.0,6750.0
+Jr Test,YND,4500.0,6500.0,5500.0
+iOS Dev,Affirm,13000.0,16000.0,14500.0
+Tech.DeliveryCon.,Pragmile,4200.0,8400.0,6300.0
+Junior Frontend Dev,Sages,5000.0,7000.0,6000.0
+Mł Programista .NET,Altkom,4200.0,6000.0,5100.0
+Mobile Dev,Altkom,4200.0,6000.0,5100.0
+Junior IT recruiter,Blazity,3500.0,5000.0,4250.0
+Frontend Dev ,Randstad,12000.0,24000.0,18000.0
+React Dev,StoryDoc,16000.0,20000.0,18000.0
+Android Dev,Affirm,13000.0,16000.0,14500.0
+Mł Programista Java,Altko,4200.0,6000.0,5100.0
+Manual Tester,PROMO.COM,5000.0,8000.0,6500.0
+Jr .NET ERP Dev,INLOGICA,5000.0,9000.0,7000.0
+Jr Dynamics 365 Dev,INLOGICA,5000.0,9000.0,7000.0
+Jr .NET Dev,C.H.Robinson,6500.0,9500.0,8000.0
+JrCustomerSupportEng,SmartBear,6000.0,7500.0,6750.0
+PHP Dev,Satisfly,10000.0,18000.0,14000.0
+Junior Java Dev,Summer Agency,6000.0,10000.0,8000.0
+JrCustSupEng,SmartBear,6000.0,7500.0,6750.0
+Junior PHP Dev ,Droptica,5000.0,8500.0,6750.0
+Junior Java Dev,IFIRMA,4500.0,7000.0,5750.0
+AWS Devops Eng,Sofomo,7000.0,9000.0,8000.0
+Mł. Programista SQL,Sente,7000.0,8200.0,7600.0
+SoftwareEng.,Ocado Technology,8000.0,8000.0,8000.0
+Junior IT Administrator,ANEGIS,6000.0,6000.0,6000.0
+Junior Tester,YND,4500.0,6500.0,5500.0
+Junior Java Dev,Sollers,7000.0,11000.0,9000.0
+Software Engineer,Tivix Europe,14000.0,16000.0,15000.0
+Praktyki letnie IT,Sente,2500.0,2500.0,2500.0
+Junior PHP Dev,PGS Software,6700.0,10100.0,8400.0
+Junior JS ServiceNow Dev,SPOC,4500.0,5000.0,4750.0
+GamingTech,PragmaticPlay,4176.0,4640.0,4408.0
+Progr. Ap. Internet,Sente,7000.0,8200.0,7600.0
+Client Engagement Manager,Anixe,7000.0,10000.0,8500.0
+Jr Data Eng,TEAM International,9000.0,12000.0,10500.0
+Jr. Frontend Dev ,Gamefound,10000.0,15000.0,12500.0
+Jr HelpDesk,TEAM International,6000.0,9200.0,7600.0
+Support Engineer,proALPHA Group,5000.0,10000.0,7500.0
+TestSoftw.Eng.,OcadoTechnology,8000.0,8000.0,8000.0
+Internship IT,GridDynamics,3500.0,3500.0,3500.0
+Mł Programista SQL,Sente,7000.0,8200.0,7600.0
+Jr .Net Dev,Gamefound,10000.0,15000.0,12500.0
+Junior Java Dev,Unity Group,6700.0,11800.0,9250.0
+Jr. DevOps,Prime,8400.0,13700.0,11050.0
+InternshipIT,Grid Dynamics,3500.0,3500.0,3500.0
+iOS Dev,Affirm,13000.0,16000.0,14500.0
+Junior C++ Dev,Acturis Poland,5000.0,8000.0,6500.0
+Backend Dev,MENTAX,4300.0,7000.0,5650.0
+.NET Dev,IN Team,6700.0,11800.0,9250.0
+Junior Java Dev,braf.tech,10000.0,12000.0,11000.0
+Junior System Admin,IT Develop,5000.0,8000.0,6500.0
+Junior QA Engineer,Deviniti,6000.0,7700.0,6850.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Junior Java Dev,Cloud Services,6000.0,12000.0,9000.0
+J. PHP Dev,Innovation Software,4000.0,7000.0,5500.0
+Jr Software Engineer,Big-xyt,5000.0,10000.0,7500.0
+Cloud Engineer,Datumo,8000.0,14000.0,11000.0
+Junior .NET Dev,Kruk,6000.0,8500.0,7250.0
+Prac Ds Supportu,SellIntegro,4000.0,6000.0,5000.0
+Junior C# Dev,Acturis Poland,5000.0,8000.0,6500.0
+Technical Engineer,Piwik,5000.0,8000.0,6500.0
+Prac Ds Supportu,SellIntegro,4000.0,6000.0,5000.0
+Jr Soft. Eng,Semaphore,2996.0,5992.0,4494.0
+Jr App Supp Eng,Big-xyt,5000.0,10000.0,7500.0
+Android Dev,Affirm,13000.0,16000.0,14500.0
+Junior Technical PM,YND,5000.0,6500.0,5750.0
+Mł Progr Aplikacji Biz,Sente,7000.0,8200.0,7600.0
+Java Software Eng,Mikronika,7500.0,15000.0,11250.0
+Junior Java Dev,Equiqo,8000.0,13000.0,10500.0
+Intern.IT,Grid Dynamics,3500.0,3500.0,3500.0
+Junior Java Dev,Codibly,6800.0,11700.0,9250.0
+Test Softw.Eng. (Intern),Ocado,8000.0,8000.0,8000.0
+DevOps Jr,Prime Engin.,8400.0,13700.0,11050.0
+Bubble.io Dev,LTVplus,4280.0,8560.0,6420.0
+Softw.Eng.,Ocado Tech.,8000.0,8000.0,8000.0
+QA Tester,Branchspace,4500.0,7500.0,6000.0
+Junior Bioinformatician,Ardigen,5000.0,7000.0,6000.0
+Software Java Eng.,Awin,8500.0,12500.0,10500.0
+Junior DevOps Engineer,Nivalit,6000.0,9000.0,7500.0
+Jr Frontend Dev,Sky-Shop.pl,6000.0,10000.0,8000.0
+JrSoft.Eng,SmartRecruiters,8000.0,12000.0,10000.0
+Junior Java Dev,Summer Agency,6000.0,10000.0,8000.0
+Jr Software Eng,Qurate,9000.0,15000.0,12000.0
+Product Specialist,Kitopi,5400.0,7300.0,6350.0
+.NET Dev,IN Team,6700.0,11800.0,9250.0
+Junior SQL Dev,Andea,5000.0,8800.0,6900.0
+Support Engineer,proALPHA Group,5000.0,10000.0,7500.0
+InternshipIT,Grid Dynamics,3500.0,3500.0,3500.0
+Junior Tester,YND,4500.0,6500.0,5500.0
+Junior Front-end Dev,Printbox,4000.0,7000.0,5500.0
+Junior Java Dev,Codibly,6800.0,11700.0,9250.0
+Shopify Spec,Unity Group,4000.0,7000.0,5500.0
+Intern Soft. Eng,Codewise,5500.0,5500.0,5500.0
+Junior Java Dev,Unity Group,6700.0,11800.0,9250.0
+Jr Soft. Eng,Semaphore,2996.0,5992.0,4494.0
+WANNABE Data Eng,Datumo,8000.0,14000.0,11000.0
+Jr React Native Dev,Printbox,5000.0,9500.0,7250.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Jr Full-stack,Synergity,4000.0,8000.0,6000.0
+Programista aplikacyjny,Syriusz,6000.0,10000.0,8000.0
+Junior Java Dev,braf.tech,10000.0,12000.0,11000.0
+iOS Dev,Affirm,13000.0,16000.0,14500.0
+Tech. Sup. Spec.,FTSP,4500.0,4500.0,4500.0
+Junior Technical PM,YND,5000.0,6500.0,5750.0
+Java Software Eng,Mikronika,7500.0,15000.0,11250.0
+Junior Blockchain Dev,BlockLabs,6000.0,10000.0,8000.0
+Jr Software Engineer,SR,8000.0,12000.0,10000.0
+Jr Dev (Symfony),Codibly,7000.0,13000.0,10000.0
+Android Dev,Affirm,13000.0,16000.0,14500.0
+Junior Mobile Dev,Altkom,4200.0,6000.0,5100.0
+Tech Support Spec,VOLT,9300.0,17500.0,13400.0
+Junior Java Dev,Sollers,7000.0,11000.0,9000.0
+Junior PHP Dev ,Droptica,5000.0,8500.0,6750.0
+Junior Full Stack Dev,Ardigen,7000.0,10000.0,8500.0
+Mł .NET,Altkom,4200.0,6000.0,5100.0
+Junior PHP Dev,PIVE,4000.0,6000.0,5000.0
+Intern.IT,Grid Dynamics,3500.0,3500.0,3500.0
+Jr Java Game Dev,Z Management,5000.0,7000.0,6000.0
+Internship IT,GridDynamics,3500.0,3500.0,3500.0
+Tester Auto.,eDokumenty,5000.0,8000.0,6500.0
+Junior .Net Dev,Coffee Mug,6000.0,8000.0,7000.0
+Tester Auto.,eDokumenty,5000.0,8000.0,6500.0
+Tester manualny ,eDokumenty,4000.0,7000.0,5500.0
+Jr Mobile Dev ,skygate,4000.0,8000.0,6000.0
+Tester Auto.,eDokumenty,5000.0,8000.0,6500.0
+IoT Engineer,BEUMER,9800.0,12000.0,10900.0
+Cloud Engineer,Datumo,8000.0,14000.0,11000.0
+Intern React Native Dev,Miquido,4000.0,4000.0,4000.0
+Junior AWS DevOps Eng,Reply,6000.0,12000.0,9000.0
+Intern iOS Dev,Miquido,4000.0,4000.0,4000.0
+Junior Java Dev,MPC,6000.0,8000.0,7000.0
+IoT Engineer,BEUMER,9800.0,12000.0,10900.0
+IoT Engineer,BEUMER,9800.0,12000.0,10900.0
+Junior JS Dev,Smart-HR,8000.0,13000.0,10500.0
+Jr Python Dev,skygate,4000.0,8000.0,6000.0
+Junior PHP Dev,ARRIS,5000.0,8000.0,6500.0
+Technical Serv,proALPHA Group,5000.0,10000.0,7500.0
+Intern Software Tester,Miquido,4000.0,4000.0,4000.0
+Junior Frontend Dev,ARRIS,4000.0,7000.0,5500.0
+Project Manager ,skygate,3200.0,5000.0,4100.0
+Intern Product Designer,Miquido,4000.0,4000.0,4000.0
+SYSTEMS INTEGRATION ENGR,ARCHE,10000.0,16000.0,13000.0
+Intern Flutter Dev,Miquido,4000.0,4000.0,4000.0
+Tech Support Spec,VOLT,9300.0,17500.0,13400.0
+Tester manualny ,eDokumenty,4000.0,7000.0,5500.0
+Programista aplikacyjny,Syriusz,6000.0,10000.0,8000.0
+JrNode.jsDev,The Software House,6000.0,8000.0,7000.0
+Intern Android Dev,Miquido,4000.0,4000.0,4000.0
+Junior System Admin,IT Develop,5000.0,8000.0,6500.0
+Jr PHP Dev,The Software House,6000.0,8000.0,7000.0
+Jr DevOps Eng,TSH,6000.0,8000.0,7000.0
+Vue.js Dev (Junior ++),skygate,7000.0,9000.0,8000.0
+IoT Engineer,BEUMER,9800.0,12000.0,10900.0
+Tester man. ,eDokumenty,4000.0,7000.0,5500.0
+Jr JS Dev,skygate,4000.0,8000.0,6000.0
+Jr AWS DevOps Engineer,Reply,6000.0,12000.0,9000.0
+Junior Node Dev,MPC,6000.0,8000.0,7000.0
+Junior QA Embedded,Aether,5000.0,7000.0,6000.0
+Java Software Eng,Mikronika,7500.0,15000.0,11250.0
+Integration Eng,proALPHA,5500.0,11000.0,8250.0
+Junior DevOps Engineer,Tenesys,7000.0,10000.0,8500.0
+ABAP (OMS) Dev,Arvato,5500.0,9500.0,7500.0
+Junior Software Engineer,ERLI,5000.0,9000.0,7000.0
+Junior Java Dev,Sollers,7000.0,11000.0,9000.0
+Jr QA Eng,WundermanThompson,6000.0,8000.0,7000.0
+Angular Web Dev,KALASOFT,8000.0,16000.0,12000.0
+JAVA DEVELOPER,KALASOFT,8000.0,16000.0,12000.0
+Konsultant ds. ERP,KALASOFT,4000.0,6000.0,5000.0
+Jr ServiceD. Cons,Systell,3200.0,3600.0,3400.0
+Konsultant ERP ,KALASOFT,4000.0,6000.0,5000.0
+Jr JS Support Eng,SPOC,4500.0,5000.0,4750.0
+Junior python developer,F33.ai,5000.0,9000.0,7000.0
+Jr Backend Dev,Guestline,6960.0,13920.0,10440.0
+Junior .NET Dev,Quad IT,6000.0,9500.0,7750.0
+Software Dev,TekMonks,8560.0,17120.0,12840.0
+Junior Java Dev,Guestline,6960.0,13920.0,10440.0
+Junior IT Administrator,BRAG,6000.0,8000.0,7000.0
+Jr iOS Dev ,Grupa Blix,6000.0,9000.0,7500.0
+Jr .NET ERP Dev,INLOGICA,5000.0,9000.0,7000.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Jr Soft.Tester,Quad IT,4800.0,7000.0,5900.0
+Junior IT Service Manager,WTT,9000.0,13000.0,11000.0
+Project Manager,Advox Studio,5000.0,8000.0,6500.0
+StażCareerStart.,IT.integro,4000.0,4000.0,4000.0
+Junior JS ServiceNow Dev,SPOC,4500.0,5000.0,4750.0
+Jr Supp Spec,Match-Trade,5500.0,8500.0,7000.0
+.NET Dev,IN Team,6700.0,11800.0,9250.0
+Soft.QualityTester,Order,6000.0,8000.0,7000.0
+Jr Dynamics 365 Dev,INLOGICA,5000.0,9000.0,7000.0
+QA Engineer,Advisor,7000.0,10000.0,8500.0
+Junior Blockchain Dev,BlockLabs,6000.0,10000.0,8000.0
+Java developer,CUI PG,6000.0,10000.0,8000.0
+InternshipIT,Grid Dynamics,3500.0,3500.0,3500.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Junior PHP Dev,SPEEDNET,4000.0,6000.0,5000.0
+Service Desk Admin,WIPRO,4000.0,8000.0,6000.0
+Junior Java Dev,Sollers,7000.0,11000.0,9000.0
+Junior PHP Dev ,Droptica,5000.0,8500.0,6750.0
+Jr Wordpress Dev,Neutec,6960.0,8352.0,7656.0
+Junior Scala Engineer,VirtusLab,9000.0,15000.0,12000.0
+Internship JS|Java,Acaisoft,1500.0,1500.0,1500.0
+Service Desk Admin,WIPRO,8000.0,9000.0,8500.0
+IT Architect,Next Tech.,18000.0,22000.0,20000.0
+WANNABE Data Eng,Datumo,8000.0,14000.0,11000.0
+IT Support Engineer ,Volue,5500.0,7500.0,6500.0
+Internship IT,GridDynamics,3500.0,3500.0,3500.0
+Junior PHP Laravel,FastTony,5000.0,9000.0,7000.0
+Quality Tester,OrderGroup,6000.0,8000.0,7000.0
+Junior Frontend Dev ,VB Polska,7000.0,8000.0,7500.0
+Junior python developer,F33.ai,5000.0,9000.0,7000.0
+Frontend Dev,Omega,7000.0,12000.0,9500.0
+Junior DevOps Engineer,Smart-HR,7000.0,13000.0,10000.0
+Soft. Java Eng,Awin,8500.0,12500.0,10500.0
+Junior PHP Dev,PGS Software,6700.0,10100.0,8400.0
+Junior Java Dev,Cloud Services,6000.0,12000.0,9000.0
+QA Engr with JS,CKSource,6000.0,10700.0,8350.0
+Jr .NET ERP Dev,INLOGICA,5000.0,9000.0,7000.0
+Jr Dynamics 365 Dev,INLOGICA,5000.0,9000.0,7000.0
+Junior Software Dev,iSMA,5000.0,9000.0,7000.0
+InternshipIT,Grid Dynamics,3500.0,3500.0,3500.0
+Java Trainee,HARMAN,4000.0,5000.0,4500.0
+Cloud Spec,Knowit Poland,6000.0,8000.0,7000.0
+Junior PHP Dev,CKSource,6000.0,10700.0,8350.0
+Junior Backend Dev,Beneering,4000.0,6000.0,5000.0
+Junior Backend Dev,Beneering,4000.0,6000.0,5000.0
+Junior Backend Dev,Beneering,4000.0,6000.0,5000.0
+Jr. DevOps ,Prime,8400.0,13700.0,11050.0
+QA Tester,TDSOFT,5000.0,7000.0,6000.0
+Junior Java Dev,Sollers,7000.0,11000.0,9000.0
+Jr Mobile Dev,Altkom,4200.0,6000.0,5100.0
+Junior Golang Dev,Rainbow Tours,6000.0,12000.0,9000.0
+Jr Embedded C++ Dev,Harman Int,5300.0,8000.0,6650.0
+WordPress Developer,Acclaim,5000.0,8000.0,6500.0
+Soft. Tester,Optimo Dev.,4000.0,5500.0,4750.0
+Mł Programista Java,Altkom,4200.0,6000.0,5100.0
+Intern iOS Dev,Miquido,4000.0,4000.0,4000.0
+Junior PHP Dev,PGS Software,6700.0,10100.0,8400.0
+Intern React Native Dev,Miquido,4000.0,4000.0,4000.0
+Intern Software Tester,Miquido,4000.0,4000.0,4000.0
+Intern Android Dev,Miquido,4000.0,4000.0,4000.0
+Junior PHP Dev,CKSource,6000.0,10700.0,8350.0
+Intern Product Designer,Miquido,4000.0,4000.0,4000.0
+Programista aplikacyjny,Syriusz,6000.0,10000.0,8000.0
+Intern Flutter Dev,Miquido,4000.0,4000.0,4000.0
+Jr. HelpDesk,TEAM Inter.,6000.0,9200.0,7600.0
+Jr. Data Eng,TEAM Inter.,9000.0,12000.0,10500.0
+Junior Java Dev,Sollers,7000.0,11000.0,9000.0
+Junior .NET Dev,Quad IT,6000.0,9500.0,7750.0
+Mł Progr. .NET,Altkom,4200.0,6000.0,5100.0
+Helpdesk,Computaris Polska,3000.0,5000.0,4000.0
+Mł Progr. Java,Altkom,4200.0,6000.0,5100.0
+Junior DevOps Engineer,Execon,6000.0,9000.0,7500.0
+Project Owner,SB Software,4500.0,6000.0,5250.0
+Junior Java Dev,Sollers,7000.0,11000.0,9000.0
+Junior System Admin,Creatuity,6000.0,10000.0,8000.0
+Junior .NET Dev,Quad IT,6000.0,9500.0,7750.0
+Jr Software Tester,Quad IT,4800.0,7000.0,5900.0
+QA Engr with JS,CKSource,6000.0,10700.0,8350.0
+Jr QA Eng,WundermanThompson,6000.0,8000.0,7000.0
+Technical Consul,proALPHA Group,5000.0,10000.0,7500.0
+Support Engineer,proALPHA Group,5000.0,10000.0,7500.0
+Integr. Eng,proALPHA,5500.0,11000.0,8250.0
+Junior PHP Dev ,Droptica,5000.0,8500.0,6750.0
+QA Engineer,Advisor,7000.0,10000.0,8500.0
+Junior Consultant,ANEGIS,4000.0,6000.0,5000.0
+Junior IT Administrator,ANEGIS,6000.0,6000.0,6000.0
+Jr System Admin,IT Develop,5000.0,8000.0,6500.0
+Java Game Dev,Z Management,5000.0,7000.0,6000.0
+QA Engineer,Advisor,7000.0,10000.0,8500.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+Java Dev,iView Recruitment,15000.0,17000.0,16000.0
+GamingTech,PragmaticPlay,4176.0,4640.0,4408.0
+Magento 2 Jr Dev,IBB.PL,4000.0,6000.0,5000.0
+Fullstack Developer,Tri Table,4500.0,8000.0,6250.0
+Software Dev,TekMonks,8560.0,17120.0,12840.0
+Jr Soft. Tester,Quad IT,4800.0,7000.0,5900.0
+Bubble.io Dev,LTVplus,4280.0,8560.0,6420.0
+Project Manager,FlyHigh.PRO,5000.0,7000.0,6000.0
